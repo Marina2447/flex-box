@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+
+.sidebar{
+    background-color: seagreen;
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.formacao-academica{
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 41px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.formacao{
+    margin-left: 5px;
+    color:white;
+    font-size: 18px;
+    
+   
+
+}
+
+.Idioma{
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-idiomas{
+    margin-left: 5px;
+    color:white;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.info-idiomas p{
+    margin: 2px;
+    justify-content: center;
+}
+
+.curriculo{
+    margin-left: 260px;
+}
+
+
+
+.perfil{
+    background-image: url(assets/spongebob_squarepants_spongebob_png_render_edward_by_polexlim_dfk32xq-fullview.png);
+    width: 165px;
+    height: 165px;
+    background-size: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 40px;
+   
+    object-position: center;
+    border: 4px solid black;
+    justify-content: center;
+}
+
+.none{
+    height: 1000px;
+    align-content: center;
+    text-align: center;
+    font-size: 21px;
+    color:palevioletred;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solidfa-phone {
+    background-color:white;
+    display: flex;
+}
+
+
+.sobre-mim h2{
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+.Exp{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.ano, .empresa{
+    display: block;
+}
+
+
+.experiencia{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-size: 18px;
+}
+.cargo{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.cargo h4{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+
+}
+
+.linguagem{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 5%;
+    vertical-align: top;
+    margin: 0;
+  
+}
+
+.competencia{
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+    
+
+}
+
+.info-linguagem{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    
+
+}
